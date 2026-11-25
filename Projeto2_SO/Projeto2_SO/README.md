@@ -33,6 +33,6 @@
 ## Reprodução
 
 1. Use os CSVs originais em `dados\_csv/`.
-2. Confira os valores e médias na tabela CSV.
+2. Confira os valores e médias na tabela de resultados.
 3. Consulte o método no relatório para reproduzir as condições da partida.
 
