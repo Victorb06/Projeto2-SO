@@ -1,0 +1,10 @@
+ORDEM DE INICIALIZACAO DOS TESTES
+
+1. Conectar o Radmin VPN à rede criada para a sessão.
+2. Fechar completamente a Steam, caso ela já estivesse aberta e ficasse contando o srcds como o jogo aberto.
+3. Iniciar o atalho do SRCDS e aguardar o carregamento do mapa.
+4. No console do servidor, executar `status` e conferir o endereço e a porta 27015.
+5. Abrir a Steam novamente.
+6. Iniciar o Left 4 Dead 2 normal pela Biblioteca ou pelo atalho correto do jogo.
+7. No console do jogo, conectar com `connect IP_RADMIN:27015`.
+8. Antes da coleta, executar `status` no servidor e conferir humanos e bots.

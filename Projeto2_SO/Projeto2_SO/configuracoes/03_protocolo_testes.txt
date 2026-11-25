@@ -1,0 +1,32 @@
+PROTOCOLO DAS MEDIÇÕES:
+
+Variável:
+- Quantidade de jogadores humanos: 1, 2, 3 e 4.
+- Condição de atividade: parado ou em movimento/atividade.
+
+Métrica:
+Contador `Process(srcds)\% Processor Time`, coletado pelo Windows Performance Monitor(PerfMon).
+
+Repetições e duração:
+- Três repetições para cada uma das oito condições.
+- Cada repetição durou aproximadamente cinco minutos.
+- Intervalo de amostragem de um segundo.
+- Período das coletas: 21/11/2026 a 23/11/2026.
+
+Condições de jogadores:
+- 1 humano e 3 bots.
+- 2 humanos e 2 bots.
+- 3 humanos e 1 bot.
+- 4 humanos e 0 bots.
+
+Descrição das condições
+- Parado: jogadores permaneciam no mesmo local e evitavam andar, atirar ou interagir. Pequenos movimentos de câmera eram feitos para reduzir o risco de desconexão por inatividade.
+- Em movimento: jogadores realizavam ações do jogo, como andar, mirar, atirar, recarregar e interagir com o ambiente(como se estivesse jogando uma partida normalmente).
+
+
+- Mesmo computador, servidor dedicado, mapa e contador em todas as condições.
+- Conferência de jogadores humanos e bots pelo comando status.
+- Três repetições por condição.
+
+Cálculo:
+A média de cada condição foi calculada a partir das três médias das repetições. Os resultados foram arredondados para duas casas decimais nas tabelas e no relatório.

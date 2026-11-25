@@ -1,0 +1,21 @@
+CONFIGURACAO DO SERVIDOR E DA REDE
+
+- Aplicativo executado: Left 4 Dead 2 Dedicated Server (`srcds.exe`).
+- Jogo: `left4dead2`.
+- Mapa: `c1m1_hotel` (primeiro mapa da campanha Dead Center).
+- Porta configurada: UDP 27015.
+- Limite de jogadores humanos configurado no servidor: 4.
+- Opção de rede: `sv_lan 1`.
+- Conexão direta: `sv_allow_lobby_connect_only 0`.
+- Proteção VAC: servidor iniciado com `-secure`; o status também indicou modo seguro.
+- Rede entre computadores: Radmin VPN.
+
+Endereço Radmin observado durante a configuração: 26.109.107.64.
+
+Composição das vagas de sobreviventes no modo cooperativo:
+- 1 jogador humano: 3 bots.
+- 2 jogadores humanos: 2 bots.
+- 3 jogadores humanos: 1 bot.
+- 4 jogadores humanos: 0 bots.
+
+O comando `status` era usado para confirmar o número real de humanos e bots antes da coleta.

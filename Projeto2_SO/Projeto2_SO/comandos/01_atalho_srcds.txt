@@ -1,0 +1,5 @@
+ATALHO DO LEFT 4 DEAD 2 DEDICATED SERVER (SRCDS):
+
+"<CAMINHO_REAL>\srcds.exe" -console -game left4dead2 -secure -ip 26.109.107.64 -port 27015 +maxplayers 4 +map c1m1_hotel +sv_lan 1 +sv_allow_lobby_connect_only 0
+
+O caminho <CAMINHO_REAL> é apenas um marcador, ele não deve ser copiado literalmente. O usuário deve preservar o caminho que já aponta para o seu arquivo srcds.exe. O IP também pode mudar, sempre conferir no Radmin e no comando status qual a sua situação (nos testes ele acabou não mudando em nenhum momento).

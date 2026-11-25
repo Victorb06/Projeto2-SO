@@ -1,0 +1,8 @@
+COMANDO PARA CONECTAR AO SERVIDOR (CONSOLE DO LEFT 4 DEAD 2)
+
+connect IP_RADMIN:27015
+
+Exemplo com o endereço que apareceu durante a configuração:
+connect 26.109.107.64:27015
+
+O IP acima é o endereço Radmin do computador que hospeda o servidor, os amigos precisavam estar conectados à mesma rede Radmin VPN para conseguir entrar no servidos.

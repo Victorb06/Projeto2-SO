@@ -1,0 +1,29 @@
+CONFIGURACAO DO WINDOWS PERFORMANCE MONITOR (PERFMON)
+
+Objetivo
+Registrar o uso de CPU do processo do servidor dedicado `srcds.exe` em arquivos CSV, com amostragem de um segundo.
+
+Configuração documentada:
+- Conjunto de Coletores de Dados: `L4D2_CPU` 
+- Coletor de dados: `DataCollector01`.
+- Tipo: Contador de Desempenho.
+- Objeto: `Process`.
+- Instância: `srcds`.
+- Contador: `% Processor Time`
+- Caminho do contador: `\Process(srcds)\% Processor Time`.
+- Intervalo de amostragem: 1 segundo.
+- Formato do log: CSV / separado por vírgulas.
+- Máximo de amostragens: desativado (sem limite definido no coletor).
+
+Procedimento:
+1. Abrir o Monitor de Desempenho (`perfmon`).
+2. Localizar Conjuntos de Coletores de Dados > Definido pelo Usuário > `L4D2_CPU`.
+3. Iniciar o conjunto de coletores antes de cada rodada.
+4. Executar a condição do jogo por aproximadamente cinco minutos.
+5. Parar o conjunto de coletores ao final da rodada.
+6. Guardar o CSV produzido e identificar a condição e a repetição.
+
+Observações:
+- Os CSVs possuem uma primeira linha de amostragem sem valor numérico, associada à inicialização do contador; ela foi desconsiderada nos cálculos.
+- Valores zero numéricos foram mantidos como amostras válidas.
+- Os arquivos CSV estão na pasta `dados_csv/`.

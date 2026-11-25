@@ -1,0 +1,12 @@
+Computador: Intel Core i7-12700F
+Núcleos físicos: 12
+Processadores lógicos: 20
+Memória RAM instalada: 16 GB
+Sistema operacional: Microsoft Windows 11 Pro
+Versão: 10.0.26200
+Compilação: 26200
+Servidor: Left 4 Dead 2 Dedicated Server (srcds.exe)
+Mapa: c1m1_hotel
+Contador: Process(srcds)\% Processor Time
+Intervalo de amostragem: 1 segundo
+Período das coletas: 21/11/2026 a 23/11/2026

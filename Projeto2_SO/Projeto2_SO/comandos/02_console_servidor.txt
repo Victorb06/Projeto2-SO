@@ -1,0 +1,16 @@
+COMANDOS DIGITADOS NO CONSOLE DO SERVIDOR (JANELA DO SRCDS)
+
+1. Ativar modo LAN utilizado com a rede virtual Radmin VPN:
+sv_lan 1
+
+2. Permitir conexões diretas, sem exigir entrada por lobby:
+sv_allow_lobby_connect_only 0
+
+3. Consultar estado do servidor, mapa, endereço, jogadores humanos e bots:
+status
+
+4. Recarregar o mapa utilizado nos testes:
+changelevel c1m1_hotel
+
+5. Encerrar o servidor ao terminar as medições:
+quit
